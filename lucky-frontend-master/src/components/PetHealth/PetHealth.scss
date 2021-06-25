@@ -1,0 +1,36 @@
+.cardhealth {
+
+    &__data {
+
+        display: flex;
+        flex-direction: column;
+    
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+    
+            span {
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    &__know {
+
+        margin-bottom: 50px;
+
+        h2 {
+            margin-top: 10px;
+            margin-left: 20px;
+            color: var(--ocean);
+        }
+    
+        p {
+            margin-left: 20px;
+        }
+    }
+
+}

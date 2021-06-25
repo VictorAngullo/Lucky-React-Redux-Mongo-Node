@@ -1,0 +1,54 @@
+.cardpet {
+
+    &__data {
+
+        display: flex;
+        flex-direction: column;
+    
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+    
+            span {
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    &__personality {
+
+        margin-bottom: 50px;
+
+        h2 {
+            margin-top: 10px;
+            margin-left: 20px;
+            color: var(--ocean);
+        }
+    
+        p {
+            margin-left: 20px;
+            background-color: var(--ocean);
+            color:white;
+            width:100px;
+            text-align: center;
+            border-radius: 20px;
+        }
+    }
+
+    &__history {
+
+        h2 {
+            margin-top: 10px;
+            margin-left: 20px;
+            color: var(--ocean);
+        }
+
+        p {
+            margin-left: 20px;
+        }
+    }
+
+}

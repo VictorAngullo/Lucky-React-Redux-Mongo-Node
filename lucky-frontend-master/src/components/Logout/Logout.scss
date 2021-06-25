@@ -1,0 +1,31 @@
+.profile-button {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 455px;
+    height: 60px;
+    // margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid var(--cloudyBlue);
+    border-radius: 4px;
+    &__icon {
+        align-self: center;
+        width: 24px;
+        height: 24px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    &__text {
+        align-self: center;
+        height: 19px;
+        color: var(--ocean);
+    }
+    &__arrow {
+        display: flex;
+        align-self: center;
+        width: 8px;
+        height: 13px;
+        position: absolute;
+        right: 20px;
+    }
+}

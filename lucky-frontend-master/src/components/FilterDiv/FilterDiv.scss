@@ -1,0 +1,20 @@
+.filter-div {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width: 67px;
+    height: 73px;
+    border: 1px solid var(--cloudyBlue);
+    border-radius: 8px; 
+
+    &__img {
+        display: contents;
+        width: 27px;
+        height: 28px;    
+    }
+
+    &__text{
+        font-size: 12px;
+        color: var(--ocean);
+    }
+}

@@ -1,0 +1,54 @@
+.pet-card {
+    display:flex;
+    flex-direction: column;
+    width: 445px;
+    height: 340px;
+    margin: auto;
+    margin-bottom: 40px;
+    border:  2px solid var(--cloudyBlue);
+    border-radius: 5px;
+
+    &__container--photo {
+        width:100%;
+        height: 288px;
+
+
+    }
+
+    &__container-text {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 36px;
+        // padding-top: 5px;
+        // margin-bottom: 5px;
+        border-top:  2px solid var(--cloudyBlue);
+
+    }
+    
+    &__container-text--name {
+        width: 70px;
+        height: 40px;
+        margin-left: 15px;
+        font-size: 25px;
+        font-weight: 700;
+        color: var(--ocean);
+    }
+
+    &__container-text--location {
+        right: 0px;
+        bottom: 0px;
+        display:flex;
+        flex-direction: column;
+        text-align: right;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-bottom: 5px;
+        width: 70px;
+        font-size: var(--size-s);
+        color: var(--black)
+    }
+}
+
+
+

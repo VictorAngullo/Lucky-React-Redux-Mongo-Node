@@ -1,0 +1,49 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 501px;
+    height: 801;
+
+    &__Title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    &__SubTitle {
+        margin-bottom: 20px;
+        font-weight: bolder;
+        font-size: larger;
+        color: var(--ocean);
+        margin-top: 20px;
+    }
+
+    &__Footer {
+        justify-content: space-around;
+        align-content: center;
+        display: flex;
+        margin-top: 50px;
+    }
+
+    &__divs {
+        margin-top: 20px;
+    }
+}
+
+.buttons {
+    background-color: var(--oval);
+    border-radius: 10%;
+    border-style: none;
+    color: white;
+}
+
+.littleTitles {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.checkbox {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
